@@ -29,7 +29,7 @@ export default function Contact() {
               {[
                 { icon: "📍", label: "Mumbai, Maharashtra, India" },
                 { icon: "✉️", label: "hello@mumbaisoftware.in" },
-                { icon: "📞", label: "+91 98765 43210" },
+                { icon: "📞", label: "+91 12345 67890" },
               ].map((c) => (
                 <div key={c.label} className="flex items-center gap-3">
                   <span>{c.icon}</span>

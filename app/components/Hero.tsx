@@ -75,9 +75,9 @@ export default function Hero() {
         {/* Stats row */}
         <div className="animate-fade-up delay-5 flex flex-wrap gap-10 mt-16 pt-10" style={{ borderTop: "1px solid var(--border)" }}>
           {[
-            { num: "50+", label: "Projects delivered" },
-            { num: "30+", label: "Happy clients" },
-            { num: "6+", label: "Years of experience" },
+            { num: "0+", label: "Projects delivered" },
+            { num: "0+", label: "Happy clients" },
+            { num: "0+", label: "Years of experience" },
           ].map((s) => (
             <div key={s.label}>
               <div className="font-display text-3xl" style={{ color: "var(--ink)" }}>{s.num}</div>

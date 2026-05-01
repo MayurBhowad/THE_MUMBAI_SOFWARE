@@ -1,9 +1,9 @@
 "use client";
 const team = [
-  { name: "Arjun Mehta", role: "Founder & CEO", initials: "AM" },
-  { name: "Priya Sharma", role: "Head of Design", initials: "PS" },
-  { name: "Rohan Patel", role: "Lead Engineer", initials: "RP" },
-  { name: "Sneha Iyer", role: "Product Manager", initials: "SI" },
+  { name: "Mayur Bhowad", role: "Founder & CEO", initials: "MB" },
+  { name: "Prachee Budharap", role: "Head of Design", initials: "PB" },
+  { name: "Aditya Tambe", role: "Lead Engineer", initials: "AT" },
+  // { name: "Sneha Iyer", role: "Product Manager", initials: "SI" },
 ];
 
 export default function About() {
@@ -30,7 +30,7 @@ export default function About() {
 
             <div className="mt-10 grid grid-cols-2 gap-6">
               {[
-                { label: "Founded", value: "2018" },
+                { label: "Founded", value: "2026" },
                 { label: "Team size", value: "15–20" },
                 { label: "Industries", value: "10+" },
                 { label: "HQ", value: "Mumbai, IN" },
