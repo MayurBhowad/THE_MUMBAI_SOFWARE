@@ -24,7 +24,7 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-4 flex items-center justify-between"
     >
       <a href="#" className="font-display text-xl" style={{ color: "var(--ink)" }}>
-        THE MUMBAI SOFTWARES<span style={{ color: "var(--accent)" }}>.</span>
+        THE MUMBAI SOFTWARE'S<span style={{ color: "var(--accent)" }}>.</span>
       </a>
 
       {/* Desktop */}
